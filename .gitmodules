@@ -1,0 +1,6 @@
+[submodule ".agents/skills/matlab-agentic-toolkit"]
+	path = .agents/skills/matlab-agentic-toolkit
+	url = https://github.com/matlab/matlab-agentic-toolkit.git
+[submodule ".agents/skills/simulink-agentic-toolkit"]
+	path = .agents/skills/simulink-agentic-toolkit
+	url = https://github.com/matlab/simulink-agentic-toolkit.git
