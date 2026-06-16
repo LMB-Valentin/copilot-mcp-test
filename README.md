@@ -18,16 +18,16 @@ Use these files from this repo as your preferred setup (typically under `~/.copi
 
 ## 🛠️ Usage
 
-Mount `agents/` (junction to `.agents/`):
+Mount `myFolder/` (junction to `myFolder/`):
 
 ```powershell
-.\mount.ps1 -PathDir .\.agents -DirName agents
+.\mount.ps1 path/to/myFolder ./target/path/to/myFolder
 ```
 
-Pop/remove the `agents/` junction (keeps target folder intact):
+Pop/remove the junction (keeps original folder intact):
 
 ```powershell
-.\pop.ps1 -DirName agents
+.\pop.ps1 ./target/path/to/myFolder
 ```
 
 Initialize submodules:
